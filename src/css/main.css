@@ -1,0 +1,84 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+
+:root,
+[data-theme="light"] {
+  --bg-background-primary: white;
+  --bg-background-secondary: white;
+  --bg-background-tertiary: #e2e8f0;
+  --bg-background-accent: rgb(56, 161, 105);
+
+  --text-copy-primary: #2a4365;
+  --text-copy-secondary: rgb(254, 254, 254);
+  --text-copy-accent: rgb(56, 161, 105);
+}
+
+[data-theme="light"] .markdown-body {
+  color: #24292e;
+}
+
+[data-theme="dark"] {
+  --bg-background-primary: #0d2438;
+  --bg-background-secondary: #102c44;
+  --bg-background-tertiary: #1e3951;
+  --bg-background-accent: rgb(34, 84, 61);
+
+  --text-copy-primary: #cbd5e0;
+  --text-copy-secondary: #cbd5e0;
+  --text-copy-accent: rgb(34, 84, 61);
+
+  --image-filter: grayscale(50%);
+}
+
+[data-theme="dark"] img:not(.logo),
+[data-theme="dark"] .img-dark {
+  opacity: 0.75;
+  transition: opacity 0.5s ease-in-out;
+}
+[data-theme="dark"] img:hover,
+[data-theme="dark"] .img-dark:hover {
+  opacity: 1;
+}
+
+[data-theme="dark"] .markdown-body {
+  color: #cbd5e0;
+}
+
+/*Add transitions on main div */
+.layout {
+  --duration: 0.3s;
+  --timing: ease;
+
+  transition: color var(--duration) var(--timing),
+    background-color var(--duration) var(--timing);
+}
+
+a {
+  @apply text-blue-800 font-bold;
+}
+
+a:hover {
+  @apply text-blue-900;
+}
+
+[data-theme="dark"] a {
+  @apply text-blue-200;
+}
+
+[data-theme="dark"] a:hover {
+  @apply text-blue-300;
+}
+
+nav .active:not(.home) {
+  font-weight: bold;
+  @apply border-black border-b;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
