@@ -1,14 +1,20 @@
-<p align="center"><img src="./static/logo.png" alt="luseeds"/></p>
-
 # Pensée sauvage
 
-Il est temps d'agir, maintenant.
+On n'a plus le temps de ne pas y croire.
+Il est temps d'agir, et rapidement.
 
 ![screenshot](screenshot.png)
 
+### Infos
+
+Site web réalisé rapidement, sous les émotions de la vidéo.  
+Comme un premier jet qui ne demande qu'à être amélioré.
+
 ---
 
-Based on [Gridsome](https://gridsome.org) and [Gridsome Portfolio Starter](https://github.com/drehimself/gridsome-portfolio-starter)
+### Technical details
+
+Based on [Gridsome](https://gridsome.org) and [Luseeds websote](https://github.com/luseeds/luseeds.com)
 
 To run it locally:
 
@@ -24,3 +30,7 @@ To build a static/prod ready version
 ```
 npm run build
 ```
+
+---
+
+A [luseeds project](https://luseeds.com).
