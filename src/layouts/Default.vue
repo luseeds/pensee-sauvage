@@ -9,7 +9,7 @@
         <div class="w-full sm:w-auto sm:flex justify-center items-center">
           <g-link to="/" class="home">
             <g-image
-              src="../../static/profile.jpeg"
+              src="../../static/profile-sm.jpeg"
               class="logo w-56 md:w-40 mx-auto md:mx-0 rounded-full"
               alt="pensee sauvage photo de profil"
             />

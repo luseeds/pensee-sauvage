@@ -8,7 +8,7 @@
           ><img src="/favicon.ico" width="25" alt="favicon" class="inline mr-2"
         /></a>
         <a
-          class="text-gray-600 font-light"
+          class="font-light"
           href="https://luseeds.com"
           target="_blank"
           rel="noopener noreferrer"

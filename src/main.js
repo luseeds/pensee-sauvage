@@ -23,6 +23,7 @@ export default function(Vue, { router, head, isClient }) {
 
   head.link.push({
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Montserrat:900"
+    href:
+      "https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
   })
 }

@@ -2,6 +2,7 @@
   <section class="youtube p-8 max-w-6xl mx-auto lg:-mt-48 relative z-10">
     <div class="embed-container relative h-0 overflow-hidden mt-10">
       <iframe
+        title="Réveillons-nous vidéo"
         src="https://www.youtube-nocookie.com/embed/1Mw5ADaHyFo?iv_load_policy=3&modestbranding=1&rel=0"
         frameborder="0"
         allow="autoplay; encrypted-media; picture-in-picture"

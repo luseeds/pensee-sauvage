@@ -1,6 +1,6 @@
 <template>
   <section class="description p-8 max-w-6xl mx-auto">
-    <div class="text-center text-xl text-gray-500 font-extrabold uppercase">
+    <div class="text-center text-xl text-gray-600 font-extrabold uppercase">
       Transcript
     </div>
     <div class="text-xl text-justify mt-6">
@@ -86,6 +86,7 @@
 }
 
 .ellipsis {
-  @apply text-gray-500 text-sm;
+  @apply text-sm;
+  color: #687588;
 }
 </style>
