@@ -1,5 +1,5 @@
 <template>
-  <section class="youtube p-8 max-w-6xl mx-auto lg:-mt-48 relative z-10">
+  <section class="youtube p-8 max-w-6xl mx-auto lg:-mt-24 relative z-10">
     <div class="embed-container relative h-0 overflow-hidden mt-10">
       <iframe
         title="Réveillons-nous vidéo"
