@@ -81,6 +81,7 @@ export default {
     ThemeSwitcher,
     Footer
   },
+  props: ["page"],
   data() {
     return {
       isOpen: false
@@ -90,6 +91,9 @@ export default {
     toggle() {
       this.isOpen = !this.isOpen
     }
+  },
+  mounted() {
+    fetch(`/.netlify/functions/visits?page=${this.page}`)
   }
 }
 </script>

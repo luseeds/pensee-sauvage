@@ -1,5 +1,5 @@
 <template>
-  <Layout class="text-center">
+  <Layout page="about" class="text-center">
     <h2 class="text-4xl">À propos</h2>
     <div class="mt-10 text-2xl">
       <div>Sous l'émotion de la vidéo, ce site est né.</div>

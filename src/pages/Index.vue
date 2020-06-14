@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout page="index">
     <index-intro />
     <index-mountains />
     <index-youtube />
