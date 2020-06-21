@@ -104,9 +104,9 @@ export default {
         scrollTrigger: {
           trigger: ".mountains",
           start: () => `top center-=${refs.mountains.scrollHeight * 0.29}px`,
-          end: () => `bottom-=${refs.mountains.scrollHeight * 0.39}px center`,
-          scrub: 1
-          // pin: ".mountains"
+          end: () => `bottom-=${refs.mountains.scrollHeight * 0.39}px top`,
+          scrub: 1,
+          pin: ".mountains"
           // markers: true
         }
       })
